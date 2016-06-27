@@ -73,10 +73,10 @@ group :assets, :test do
   gem 'coffee-script', :require => 'coffee_script'
   gem 'coffee-rails', '~> 4.0.0'
 
-  gem 'uglifier', '>= 1.3.0'
+  gem 'uglifier', '>= 2.7.2'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 3.1.3'
 gem 'bourbon'
 gem 'knockoutjs-rails'
 gem 'figaro'
@@ -84,7 +84,7 @@ gem 'figaro'
 gem 'delayed_job_active_record'
 gem 'daemons'
 
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.6.8'
 
 # Eventually we'll need these, but there's version conflict when installing
 #gem 'crossroadsjs-rails'
@@ -104,3 +104,4 @@ gem 'nokogiri'
 
 # To use debugger
 # gem 'debugger'
+gem 'sprockets', '~> 2.11.3'
